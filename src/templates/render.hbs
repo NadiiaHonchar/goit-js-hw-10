@@ -1,0 +1,13 @@
+<div class="card-svg">
+    <img src="{{0.flags.svg}}" alt="{{0.altSpellings}}" class="flagSwg"></img>
+    <h2 class="card-title">{{0.name.official}}</h2>
+</div>
+<div class="card-body">
+    <p class="card-text">Capital: {{0.capital}}</p>
+    <p class="card-text">Population: {{0.population}}</p>
+    <ul class="list-group">
+       {{#each 0.languages}}
+        <li class="list-group-item">Languages: {{.}}</li>
+       {{/each}}
+    </ul>
+</div>

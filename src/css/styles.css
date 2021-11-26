@@ -18,3 +18,32 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.flagSwg
+{
+  max-width: 100px;
+  margin-right: 50px;
+}
+
+.card-svg
+{
+  display: flex;
+}
+
+/* .flagSwgList
+{
+  max-width: 100px;
+  margin-right: 50px;
+} */
+
+.list-group-flag
+{
+  display:flex;
+  margin-bottom: 15px;
+}
+
+ul
+{
+  list-style: none;
+
+}
